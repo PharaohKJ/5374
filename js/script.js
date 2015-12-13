@@ -311,7 +311,7 @@ $(function() {
 /*   var descriptions = new Array(); */
 
 
-  function GetQueryString() {
+  function getQueryString() {
     if (1 < document.location.search.length) {
       // 最初の1文字 (?記号) を除いた文字列を取得する
       var query = document.location.search.substring(1);
